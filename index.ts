@@ -1,4 +1,4 @@
-import { dlopen, ptr, toArrayBuffer, suffix } from "bun:ffi";
+import { dlopen, ptr, suffix } from "bun:ffi";
 
 var countersBuffer: BigUint64Array;
 var countersBufferPtr;
