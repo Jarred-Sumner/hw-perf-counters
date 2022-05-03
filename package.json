@@ -1,0 +1,20 @@
+{
+  "name": "hw-perf-counters",
+  "description": "Hardware Performance Counters for macOS",
+  "keywords": [
+    "bun",
+    "bun.js",
+    "hardware",
+    "performance",
+    "counters"
+  ],
+  "author": {
+    "name": "Jarred Sumner",
+    "email": "jarred@jarredsumner.com"
+  },
+  "license": "MIT",
+  "exports": {
+    "node": "./unsupported.js",
+    "default": "./index.ts"
+  }
+}
